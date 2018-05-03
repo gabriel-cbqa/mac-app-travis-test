@@ -20,7 +20,7 @@ class ViewController: NSViewController {
         
         let d = Datos()
         d.Titulo = "HOLA"
-        d.Description = "Un saludo pa toda la razita de culiacan que la sigue cotorriando"
+        d.Description = "JEJE SALU2 :v "
         d.Detalle = "Fierro viejon"
         d.Imagen = "NSUser"
         lista=lista.insertar(dato: d)
