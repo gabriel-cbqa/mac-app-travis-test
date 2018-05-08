@@ -1,6 +1,6 @@
+language: objective-c
 os: osx
 osx_image: xcode9.3
-language: objective-c
 before_install:
   - export PATH=$PATH:$JAVA_HOME/bin
   - nvm install 6
