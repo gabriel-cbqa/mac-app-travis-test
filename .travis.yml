@@ -10,4 +10,5 @@ before_install:
   - appium-doctor
   - appium &
   script:
+  - xcrun simctl list
   - mvn clean test
