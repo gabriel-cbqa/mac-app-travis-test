@@ -4,11 +4,11 @@ osx_image: xcode9.3
 before_install:
   - export PATH=$PATH:$JAVA_HOME/bin
   - nvm install 6
-  before_script:
+before_script:
   - npm install -g appium
   - npm install -g appium-doctor
   - appium-doctor
   - appium &
-  script:
+script:
   - xcrun simctl list
   - mvn clean test
