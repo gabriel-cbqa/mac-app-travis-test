@@ -2,6 +2,7 @@ package scenarios;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import pages;
 
 import java.net.MalformedURLException;
 
