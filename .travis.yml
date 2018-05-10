@@ -6,3 +6,6 @@ before_script:
   - appium &
 script:
   - mvn clean test
+notifications:
+  email:
+  - gabriel@cbqasolutions.com
