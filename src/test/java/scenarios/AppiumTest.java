@@ -16,6 +16,7 @@ public class AppiumTest extends IOSSetup
     @Test
     public void launchTest()
     {
-        new MainPage(driver).testControls();
+        MainPage main = new MainPage(this.driver);
+        main.testControls();
     }
 }
