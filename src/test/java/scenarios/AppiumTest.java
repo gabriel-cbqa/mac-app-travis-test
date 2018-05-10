@@ -16,6 +16,6 @@ public class AppiumTest extends IOSSetup
     @Test
     public void launchTest()
     {
-        System.out.print("PRUEBAAAAAA\n\n\n"+driver);
+        new MainPage(driver).testControls();
     }
 }
