@@ -16,7 +16,7 @@ public class MainPage
     {
         Screenshot ss = new Screenshot(this.driver);
         ss.takeScreenshot("antes");
-        driver.findElementByAccessibilityId("5").sendKeys("HOLA, hola, hola");
+        driver.findElementByAccessibilityId("TextField1").sendKeys("HOLA, hola, hola");
         ss.takeScreenshot("despues");
     }
 }
