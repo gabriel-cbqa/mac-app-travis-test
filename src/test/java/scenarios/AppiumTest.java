@@ -2,7 +2,7 @@ package scenarios;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages;
+import pages.MainPage;
 
 import java.net.MalformedURLException;
 
@@ -17,7 +17,6 @@ public class AppiumTest extends IOSSetup
     @Test
     public void launchTest()
     {
-        MainPage main = new MainPage(this.driver);
-        main.testControls();
+        new MainPage(driver).testControls();
     }
 }
