@@ -6,9 +6,6 @@ before_script:
   - appium &
 script:
   - mvn clean test
-notifications:
-  email:
-  - gabriel@cbqasolutions.com
 deploy:
 provider: s3
 access_key_id: AKIAJ6D7R2ZC4K37ZHXQ
